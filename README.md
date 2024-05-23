@@ -1,10 +1,10 @@
 # InstalarProjetoDjango
 
-# Noterminha Linux, vamos criar uma pasta para o projeto:
+# No terminal Linux, vamos criar uma pasta para o projeto:
 
 mkdir + nome da pasta
 
-Comando: ls para verificar que a pasta foi criada.
+Comando: ls para verificar que a pasta foi criada
 
 comando: cd + nome da pasta para acessar a pasta
 
@@ -24,7 +24,22 @@ Em seguida vamos verificar tudo que está instalado em nosso sistema
 
 execute o camando: pip freeze > requirements.txt
 
-O requirements.txt é onde aparace os programas que estamos usando e suar versões.
+O requirements.txt é onde aparace os programas que estamos usando e suar versões
+
+Em seguida, vamos criar um projeto no Django
+
+execute o comando: django-admin startproject mysite .  
+
+Após esse comando o vc sode gera o os arquivos
+mysite
+manege.py
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/81f97f47-bc28-4d08-bc31-0a1c5590aaa0)
+
+
+
+
+
 
 
 
