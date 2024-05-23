@@ -36,6 +36,11 @@ manege.py
 
 ![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/81f97f47-bc28-4d08-bc31-0a1c5590aaa0)
 
+Em seguida, exeture o comando: python3 manage.py runserver
+
+Apos irá aparecer se tudo der certo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/a7c90caf-0484-4812-a277-008b0739509a)
 
 
 
