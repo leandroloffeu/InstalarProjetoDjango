@@ -18,4 +18,14 @@ Abra o terminal do VsCode  para instalação do: Pip
 
 Execute o seguinte comando: sudo apt-get install pip
 
+Instalara o Django em seguida: pip install django
+
+Em seguida vamos verificar tudo que está instalado em nosso sistema
+
+execute o camando: pip freeze > requirements.txt
+
+O requirements.txt é onde aparace todos os programas que foram instalados
+
+
+
 
