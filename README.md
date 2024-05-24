@@ -65,9 +65,13 @@ Irá ficar assim:
 Ele serve para quando iremos colocar o site no ar, o STATIC_ROOT serve para encontrar arquivos estáticos (imagens css ou html)
 
 
+
+Configurando:
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/aec95f66-e3c1-44c4-88fc-4f60a940091b)
+
 Em  ALLOWED_HOSTS = [] é nossa lista onde iremos definir quem poderá acessar o nosso projeto.
 A principio irmos configurar assim: ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com'] (atorizando nossa própia máquina e onde iremos hospedar o nosso site.) 
-Caso execute o comoando assim ALLOWED_HOSTS = ['*'] qualquer operação acesse o seu projeto. Portanto é uma  segurança ao seu projeto.
+Caso execute o comoando assim ALLOWED_HOSTS = ['*'] qualquer operação irá acessar o projeto. Portanto é uma segurança a ele.
 
 
 
