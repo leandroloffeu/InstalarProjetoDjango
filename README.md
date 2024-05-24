@@ -43,6 +43,37 @@ Apos irá aparecer se tudo der certo:
 ![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/a7c90caf-0484-4812-a277-008b0739509a)
 
 
+# Configurações básicas no Django quando inicia uma nova applicação.
+
+
+No seu projeto vá em: settings.py
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/2aea7285-5bde-4c67-b68c-c5ecdc850785)
+Local onde podemos mudar o idioma: 'pt-br'
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/683315e9-2c86-4f29-a748-68d98a27e83e)
+Local onde podemos informar em que horário estamos: 'America/Sao_Paulo'
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/6f106402-c161-475d-9178-7df8826299b6)
+Local onde é informado ao Django onde buscar as imagens: '/static/'
+
+Abaixo realize o seguinte comando: STATIC_ROOT = BASE_DIR / 'satatic'
+
+Irá ficar assim:
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/bbd826df-e054-4927-991b-5d80c51f0106)
+
+Ele serve para quando iremos colocar o site no ar, o STATIC_ROOT serve para encontrar arquivos estáticos (imagens css ou html)
+
+
+Em  ALLOWED_HOSTS = [] é nossa lista onde iremos definir quem poderá acessar o nosso projeto.
+A principio irmos configurar assim: ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com'] (atorizando nossa própia máquina e onde iremos hospedar o nosso site.) 
+Caso execute o comoando assim ALLOWED_HOSTS = ['*'] qualquer operação acesse o seu projeto. Portanto é uma  segurança ao seu projeto.
+
+
+
+
+
+
 
 
 
