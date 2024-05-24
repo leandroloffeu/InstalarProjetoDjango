@@ -24,7 +24,7 @@ Em seguida vamos verificar tudo que está instalado em nosso sistema
 
 execute o camando: pip freeze > requirements.txt
 
-O requirements.txt é onde aparace os programas que estamos usando e suar versões
+O requirements.txt é onde aparace os programas que estamos usando e suas versões
 
 Em seguida, vamos criar um projeto no Django
 
