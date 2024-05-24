@@ -10,9 +10,9 @@ comando: cd + nome da pasta para acessar a pasta
 
 Dentro da pasta vai ser criado o projeto Django
 
-Suba o vs code com o comando no terminal: code .
+Suba o VsCode com o comando no terminal: code .
 
-Em extensão do vscode, instalar a versão o Phyton.
+Em extensão do VsCode, instalar a versão o Phyton.
 
 Abra o terminal do VsCode  para instalação do: Pip
 
