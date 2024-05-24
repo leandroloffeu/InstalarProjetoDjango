@@ -30,7 +30,7 @@ Em seguida, vamos criar um projeto no Django
 
 execute o comando: django-admin startproject mysite .  
 
-Após esse comando o vc sode gera o os arquivos
+Após esse comando o vc code gera o os arquivos
 mysite
 manege.py
 
