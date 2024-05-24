@@ -8,7 +8,7 @@ Comando: ls para verificar que a pasta foi criada
 
 comando: cd + nome da pasta para acessar a pasta
 
-Dentro da pasta vai ser criado o proojeto Django
+Dentro da pasta vai ser criado o projeto Django
 
 Suba o vs code com o comando no terminal: code .
 
