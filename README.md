@@ -76,9 +76,39 @@ Caso execute o comoando assim ALLOWED_HOSTS = ['*'] qualquer operação irá ace
 
 ## Banco de dados no Django
 
-Criando uma AP: Que é uma subpasta que tem a sua finalidade específica de aluma funcionalidade do site
+Criando uma APP: Que é uma subpasta que tem a sua finalidade específica de aluma funcionalidade do site
 
-Criando uma AP chamado de blog dando o seguinte comando: python3 manege.py startapp blog
+Criando uma APP chamado de blog dando o seguinte comando: python3 manage.py startapp blog
+
+Se tudo der certo, aparecerá uma nova pasta com estrututa (APP) conforme exemplo abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/a85da876-529c-47e6-ac68-7817a5f80617)
+
+Podemos criar quantos APPS quiser. Mas toda vez que se cria um APP necesário registrar esse novo APP.
+
+Seguindo os seguintes passos:
+
+1 - ir em setting.py
+
+2 - ir em Installed_APPS - nele aparecerá uns APPS Deful do própio Django. Nele vamos colocar o nome do APP que criamos conforme imagem abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/ecc712cc-260d-49d0-b724-3efb62e1442d)
+
+Depois para verificar se deu certo, vamos acinar o servidor dando o comando: python3 manage.py runserver
+
+Se aparecer a figura abaixo, é pq deu certo e o foguetinho subiu. kkkk
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/5143a241-0065-4e57-ac88-c538462ec087)
+
+A mensagem em vermelho, irmeos ver mais a frente... 
+
+
+
+
+
+
+
+
 
 
 
