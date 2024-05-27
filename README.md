@@ -102,6 +102,54 @@ Se aparecer a figura abaixo, é pq deu certo e o foguetinho subiu. kkkk
 
 A mensagem em vermelho, irmeos ver mais a frente... 
 
+Bem, apos o registro da APP iremos criar um modelo. Tipo:
+
+O nosso modelo será de um post de um blog, que contem: (Título - Autor - texto -  data) e essas informações serão coletadas em uma tabela.
+
+Sendo assim iremos criar a tabala dentro do nosso aplicativo que é "blog" em models.py conforme a imagem abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/2476a6d7-e4be-41ac-8f2b-f9c0f9d17d77)
+
+Acessando o tutorial abaixo, podemos usar o modelo de postagem para o blog:
+
+https://tutorial.djangogirls.org/pt/django_models/
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/68c2ef3f-739d-4e64-8329-ae3232a577ee)
+
+Vamos copiar e colar o modelo em models.py na pasta blog conforme a imagem abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/f424ddaa-2069-4fb4-8d9b-555ee37840a2)
+
+Toda class conforme a a imagem abaixo é um modelo
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/801d7e36-ef04-4e38-ade1-48e23669f8d9)
+
+Nele terá qual a linha e coluna desse modelo conforme a imagem abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/54bf6a33-1b08-4f80-a287-6488f4d318d6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
