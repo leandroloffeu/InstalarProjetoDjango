@@ -129,6 +129,26 @@ Nele terá qual a linha e coluna desse modelo conforme a imagem abaixo:
 ![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/54bf6a33-1b08-4f80-a287-6488f4d318d6)
 
 
+Atenção a essa linha:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/0c157b66-a78e-41f7-826d-212e78877842)
+
+Essa linha informa que o autor vai ser parte da auto_user_model, quer dizer que o autor vai ser parte da tabela de usuários padrão do Django.
+Em on_delete=models.CASCADE quer dizer se algum model for deletado ou se deletar todos os post vão ser deletados em cascata
+
+O metodo abaixo faz atriu a data e hora atual.
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/d0ddf999-bbb9-4886-8b49-2e4d5a85ce53)
+
+O metodo em seguida vamos ver no Djando ADM mais a  frente...
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/c79b9e73-2525-4535-99d9-c8f5d3516f38)
+
+
+Vamos verificar a mensagem em vermelho abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/5143a241-0065-4e57-ac88-c538462ec087)
+
 
 
 
