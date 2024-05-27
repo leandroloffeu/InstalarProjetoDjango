@@ -150,6 +150,43 @@ Vamos verificar a mensagem em vermelho abaixo:
 ![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/5143a241-0065-4e57-ac88-c538462ec087)
 
 
+ele informa que existe 18 tabela que não foram aplicadas, com isso, iremos acrescentar a nova tabelar que estamos criando. Essas 18 são as tabelas padrões do django.
+
+vamos realizar o seguinte comando para a criação da tabela: makemigrations é um comando django que cria a tabela então iremos realizar a criação com o seguinte comando
+python3 manage.py makemigrations blog assim iremos criar a tabela no APP blog. Se tudo der certo irá aparecer a seguinte mensagem no terminal:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/06fe1b16-e1a0-4bfe-a378-547198a41bd3)
+
+Para conferir vamos rodar o seguinte comando: python3 manage.py runserver
+
+Se tudo der certo a mensagem em vermelho irá subir de 18 para 19 tabelas ou mehor 19 aplicações não aplicadas conforme a imagem abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/e5b5450d-97a9-4189-9225-cf736f310116)
+
+Sendo assim, vamos criar um comando para criar as tabelas com o seguinte comando: python3 manage.py migrate para faer a migração das 19 tabelas
+Caso fosse apanas a mingração da tabela do blog seria: python3 manage.py migrate blog
+
+Se tudo der certo ira aparecer a imagem abaixo, ele irá criar toda as 19 tabelas pendentes.
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/0eda0565-beea-4d83-8228-710f52b513b7)
+
+testando se deu certo vamos realizar o seguinte comando: python3 manage.py runserver
+Iremos verificar que a mensagem de erro não irá aparecer.
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/c56098a6-0c1c-4bee-b9b3-5f7d03836f30)
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
