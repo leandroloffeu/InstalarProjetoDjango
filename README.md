@@ -74,6 +74,15 @@ A principio irmos configurar assim: ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhe
 Caso execute o comoando assim ALLOWED_HOSTS = ['*'] qualquer operação irá acessar o projeto. Portanto é uma segurança a ele.
 
 
+## Banco de dados no Django
+
+Criando uma AP: Que é uma subpasta que tem a sua finalidade específica de aluma funcionalidade do site
+
+Criando uma AP chamado de blog dando o seguinte comando: python3 manege.py startapp blog
+
+
+
+
 
 
 
