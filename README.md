@@ -175,6 +175,22 @@ Iremos verificar que a mensagem de erro não irá aparecer.
 
 ![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/c56098a6-0c1c-4bee-b9b3-5f7d03836f30)
 
+Apos a tabela criada, podemos acessar.
+
+vamos acessar no terminal Django acessando o seguinte comando: python3 manage.py shell
+
+Iraá aparecer a imagem abaixo:
+
+![image](https://github.com/leandroloffeu/InstalarProjetoDjango/assets/112645165/ff9b0355-bff5-4541-b990-093521ad67cf)
+
+Em seguida vamos até o arquivo com o seguinte comando: from blog.models import Post 
+
+O Post é o nome da taleha que foi criada, se não der nem erro é pq deu certo! 
+
+E dentro da tabela Post iremos realizar o seguinte comando: Post.objects.all()  
+Este comando irá trazer todos os objetos dentro da tabela.
+
+
 
 
 
